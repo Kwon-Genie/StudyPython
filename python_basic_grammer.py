@@ -153,9 +153,15 @@ a = 'Hello World!'
 # print(a.ljust(20, '0')) #문자열 왼쪽 정렬
 # print(a.rjust(20,'0')) #문자열 오른쪽 정렬
 # print(a.zfill(20)) #문자열 오른쪽 정렬 & 0으로 빈자리 채움
-print(a.isdigit(), '123'.isdigit()) #문자열이 숫자로 구성되었는지 확인
-print(a.isalpha(), '123'.isalpha(), '확인'.isalpha(), 'HelloWorld'.isalpha()) #문자열이 영문자로 구성되었는지 확인 => 문자열에 공백, 숫자, 특수기호 등 이 포함되어있으면 False 반환
-
+# print(a.isdigit(), '123'.isdigit()) #문자열이 숫자로 구성되었는지 확인
+# print(a.isalpha(), '123'.isalpha(), '확인'.isalpha(), 'HelloWorld'.isalpha()) #문자열이 영문자로 구성되었는지 확인 => 문자열에 공백, 숫자, 특수기호 등 이 포함되어있으면 False 반환
+# print(a.isalnum(), '123'.isalnum(), 'abc'.isalnum(), '123abc'.isalnum()) #문자, 숫자로만 구성되어있으면 True / 공백과 같은 특수문자 포함시 False 반환
+# print(a.islower(), '123'.islower(), 'abc'.islower(), 'ABC'.islower(), '하하'.islower()) #영문자 소문자로만 구성되어있는 문자열의 경우 True 이외는 False
+# print(a.isupper(), '123'.isupper(), 'abc'.isupper(), 'ABC'.isupper(), '하하'.isupper()) #영문자 대문자로만 구성되어있는 문자열의 경우 True 이외는 False
+# print(a.isspace(), '  '.isspace(), '123'.isspace(), 'abc'.isspace(), '하하'.isspace(), '$$'.isspace()) #공백문자로만 구성되어있는 문자열의 경우 True 이외는 False
+# print(a.istitle(), '123'.istitle(), 'Hello world!'.istitle()) #문자열의 첫문자가 대문자인지 확인 Hello World와 같은 구성의 경우 True
+# print(str(123), int(123), ord('a')) # str(): string convert / int(): int convert / ord(): ascii unicode convert
+# print(list(a)) #string -> list로 쪼개는 함수
 
 # # error 처리
 # try :
