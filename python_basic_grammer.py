@@ -126,7 +126,7 @@
 # print(a)
 
 # # 문자열 관련 함수
-a = 'Hello World!'
+# a = 'Hello World!'
 # print(a.upper()) #대문자 변환
 # print(a.lower()) #소문자 변환
 # print(a.swapcase()) #대문자 <-> 소문자 변환
@@ -168,4 +168,18 @@ a = 'Hello World!'
 #     print(a.index('o'), a.index('test')) #문자열에서 찾는 첫번째 위치 반환 없을 경우는 error 발생 =>
 # except ValueError :
 #     print('error')
+
+# # 리스트
+# # list의 선언
+# a = []
+# b = list()
+# print (a, b)
+# # list 값 입력
+# a = [1, 2, 3] # list 재선언
+# print(a)
+# a.append(4) # list의 마지막에 항목 추가
+# print(a)
+# a.insert(0, 9) # list의 특정 위치에 특정값 추가 var.insert(pos, val)
+# print(a)
+
 
