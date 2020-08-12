@@ -182,4 +182,14 @@
 # a.insert(0, 9) # list의 특정 위치에 특정값 추가 var.insert(pos, val)
 # print(a)
 
-
+# 조금 다른 list 생성
+# a = [0]*4 # 0이 여러개..
+# print(a)
+# b = [a]*4 #[]로 복제하는 경우 해당 주소를 복사하는것과 같아서 a 리스트 값 변경시 b에도 영향이 끼치게 되고
+# a[1] = 4
+# print(b)
+# b = list(a)*4 # 이것처럼 list로 복제하는 경우 신규로 생성되는 constructor의 의미인지 무어인지.. 신규로 리스트 복제가 됨
+# a[1] = 4
+# print(b)
+# a = list(range(9)) #range 이용해서 한꺼번에 리스트 만들기
+# print(a)
