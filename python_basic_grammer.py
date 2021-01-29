@@ -170,7 +170,7 @@
 #     print('error')
 
 # # 리스트
-# # list의 선언
+# # list의 선언#
 # a = []
 # b = list()
 # print (a, b)
